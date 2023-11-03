@@ -65,8 +65,21 @@ textarea {
 #status {
     margin-bottom: 10px;
 }
+@media (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
 
-;
+    input, textarea {
+        padding: 5px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+
 
 #para {
     color: pink;
