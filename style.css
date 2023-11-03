@@ -57,3 +57,9 @@ textarea {
 #submit:hover {
     background-color: #333333;
 }
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+}
